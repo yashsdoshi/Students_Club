@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="LoginStyle.css"/>
+    <title>Club Login</title>
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo" height="853" >
+      <source src="Sea - 24216.mp4" type="video/mp4">
+    </video>
+    <div>
+      <form action="successful.html">
+        <h1 style="text-align: center;"> Get Your Membership Now!!!</h1>
+        <div class="container">
+
+          <label for="uname"><b>Name</b></label>
+          <input type="text" placeholder="Enter your name (4-10 Characters)" name="uname" pattern="[A-Za-z]{4,10}"  autofocus required/>
+          
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" autofocus required/>
+
+          <label for="email"><b>Email</b></label>
+          <input type="email" placeholder="Enter Email" autofocus required name="email" style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;"/>
+          
+          <label for="birthday"><b>Birthday</b></label>
+          <input type="date" placeholder="Enter Your Birthday" autofocus required name="birthday" style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;"/>
+
+          Select a Club to join.
+
+          <select id="reason" list="Select a club." style="width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; border-radius: 25px;">    
+          <option value="1">Click here to select.</option>    
+          <option>Game zone</option>    
+          <option>volentiring zone</option>    
+          <option>Brain Zone</option>    
+          <option>Gym Zone</option>    
+          <option>Community Helpers zone</option>       
+          <option>Art zone</option>  
+          <option>Dance zone</option> 
+          <option>Take A Challange zone</option>
+        </select>
+
+          <button type="submit">Sign Up</button>
+          
+          <input type="checkbox" checked="checked" name="remember" /> Remember me
+
+        </div>
+
+        <div class="container" >
+          <a class="cancelbtn" href="index.html">Cancel</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
