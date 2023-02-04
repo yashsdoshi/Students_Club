@@ -13,6 +13,11 @@ git clone 'https://github.com/yashdoshi12/Students_Club.git'
 ```bash 
 cd Students_Club
 ```
+- [x] intall the `node` pakages:
+```bash 
+npm i
+```
+
 <hr />
 <br />
 
