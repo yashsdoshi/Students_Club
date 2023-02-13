@@ -4,7 +4,7 @@ Its a student's website where they can enroll in various clubs(like Dance club, 
 # Preview Of Website👇;
 https://yashdoshi12.github.io/Students_Club/
 
-# :octocat: Cloning this repo:
+# :octocat: Cloning this repo(Terminal Version):
 - [x] Run the following command:
 ```bash 
 git clone 'https://github.com/yashdoshi12/Students_Club.git' 
